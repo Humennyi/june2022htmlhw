@@ -1,0 +1,30 @@
+body {
+    background: blanchedalmond
+}
+
+a   {
+    text-decoration: none;
+    color: blue;
+
+}
+p{
+    color: brown;
+
+}
+
+.Family {
+    color: blueviolet;
+}
+
+h2 {
+    background: coral;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    height: 200 px;
+}
+.Fam {text-align: center;
+
+}
