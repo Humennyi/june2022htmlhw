@@ -1,0 +1,77 @@
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    border: 1px solid black;
+
+}
+
+.card {
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.name1 {
+    text-align: center;
+    height: 20px;
+    padding-top: 30px;
+
+}
+
+.text {
+
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 10px, 20px 10px 20px ;
+}
+
+.box {
+
+    height: 40px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.box:hover{
+   background: azure;
+    cursor: pointer;
+}
+
+.name2 {
+    text-align: center;
+    height: 20px;
+    padding-top: 30px;
+}
+
+.name3 {
+    text-align: center;
+    height: 20px;
+    padding-top: 30px;
+

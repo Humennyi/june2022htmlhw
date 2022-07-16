@@ -1,0 +1,20 @@
+.main {
+    height: 800px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+}
+.card {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+.icon {
+    width: 100px;
+    height: 200px;
+    border: 1px solid red;
+}
+.icon>i {
+    height: 30px;
+    width: 30px;
+}
