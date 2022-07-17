@@ -1,0 +1,68 @@
+.main {
+    margin: 0 auto;
+    /*height: 80vw;*/
+    /*width: 80vh;*/
+    height: 700px;
+    width: 1100px;
+
+    /*border: 1px solid black ;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.card {
+     width: 300px;
+    height: 500px;
+    border: 1px solid black ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.card p{
+    padding: 0 20px 0 20px;
+
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: -50px;
+
+}
+
+.box{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background: greenyellow;
+    border: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.box:hover {
+    background: aqua;
+    color: red;
+    height: 50px;
+    width: 100px;
+}
