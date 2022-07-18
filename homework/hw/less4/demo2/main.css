@@ -1,0 +1,84 @@
+body {margin: 0}
+.wrap{
+
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
+
+
+}
+.A {
+    margin: 10px 2.5%;
+
+    background: red;
+    width: 95%;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.BC {
+    margin: 10px 2.5%;
+    width: 95%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.B{
+
+    background: aqua;
+    height: 100%;
+    width: 68%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C {
+    background: blueviolet;
+    height:100% ;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name {
+    color: white;
+}
+
+@media screen  and (max-width: 800px){
+    .A {
+        height: 80px;
+        background: blue;
+    }
+    .BC {
+        flex-direction: column;
+
+        width: 95%;
+
+    }
+    .B {
+        margin: 10px 0 ;
+        background: gold;
+
+
+        width:100%;
+        height:430px;
+
+    }
+    .C{
+        margin: 10px 0 ;
+        background: white;
+
+        width: 100%;
+        height: 130px;
+    }
+
+
+
+}
